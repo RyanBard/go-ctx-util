@@ -14,3 +14,11 @@ make
 make coverate-html
 open _coverage/coverage.html
 ```
+
+## Publishing Changes
+
+```
+git push origin master
+git tag v0.0.0 # supply the correct semantic version
+git push origin v0.0.0
+```
